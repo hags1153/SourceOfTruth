@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Source of Truth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Source of Truth</h1>
+        <p>Rate and discover the best places, starting with restaurants and expanding to everything imaginable.</p>
+    </header>
+
+    <main>
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search by location, keywords, or name">
+            <button onclick="search()">Search</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Source of Truth. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function search() {
+            let query = document.getElementById('search').value;
+            alert('Search function will be implemented soon: ' + query);
+        }
+    </script>
+</body>
+</html>
